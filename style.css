@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.hero {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.main-image {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.intro {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.about, .pubInfo, .creationDev {
+    margin: 2rem auto;
+    max-width: 800px;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pubInfo ul {
+    list-style: none;
+    padding-left: 1rem;
+}
+
+.pubInfo ul li {
+    margin-bottom: 0.5rem;
+}
+
+.pubInfo ul ul {
+    margin-top: 0.5rem;
+}
+
+.creationDev .images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.extra-images {
+    height: 200px;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+}
+
+.extra-images:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
